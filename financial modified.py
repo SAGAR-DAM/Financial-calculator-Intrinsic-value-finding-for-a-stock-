@@ -3,6 +3,22 @@ Created on Wed Jun  1 06:48:51 2022
 @author: SAGAR DAM
 FINANCIAL CALCULATOR
 """
+'''
+Description:: 
+____________
+
+This code takes some input in the format of array of the past net profits and 
+cash flows (yearly basis) and w.r.t each year's performance and calculates the average 
+increament of NP of CF (CAGR or Average, whichever is lower), calculates the future NP's 
+and CF's for next (typically 40) years.While calculating the next year's performances, 
+the code halfs the increament rate after every 5 future years and finally takes same for 
+all the way from 20th to 40th year. So for the input of the profits of last 10years, it
+will generate 10 forecasts for any future year's profit and take the average of them and
+discount them to current value. According to that, it will use the DCF methode to evaluate
+the intrinsic share price of the company. 
+
+'''
+
 #######################################################
 import numpy as np
 from matplotlib import pyplot as plt
