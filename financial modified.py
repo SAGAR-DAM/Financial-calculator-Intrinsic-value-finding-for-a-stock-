@@ -44,8 +44,8 @@ inflation=7                         #assumed inflation rate
 margin_of_safety=20                    #margin of safety
 
 
-netprofit=[1647,2423,4040,6528,7342,5602,8606,8722,10120,11057,11169,13523]
-cashflow=[1796,2418,4492,6457,5539,3823,8995,8328,8971,13359,19618,16900]
+netprofit=[1647,2423,4040,6528,7342,5602,8606,8722,10120,11057,11169,13523]    #netprofit data from 2011 to 2022
+cashflow=[1796,2418,4492,6457,5539,3823,8995,8328,8971,13359,19618,16900]      #operating cash flow data from 2011 to 2022
 
 
 company="HCL TECH"         #Company Name
